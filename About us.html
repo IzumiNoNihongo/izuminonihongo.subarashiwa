@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Izumi No Nihongo</title>
+    <link link rel="icon" href="Gambar/bahan web gambar.png">
+</head>
+<style>
+    
+    /* Slideshow container */
+    .content-slide {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    
+
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        color: rgb(255, 254, 224);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0, 0, 0, 0.8); 
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .pre:hover,
+    .next:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(0, 0, 0);
+    }
+    
+    .text {
+        color: #fafafa;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .content-slide .numberslide {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+    }
+    
+    /* resposive */
+    
+    @media screen and (max-width: 800px) {
+    
+        .content-slide {
+            padding: 8px 50px 12px 50px;
+        }
+    
+        .next {
+            right: 50px;
+            border-radius: 3px 0 0 3px;
+        }
+        
+    }
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4;
+        }    
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .container .page {
+        text-align: center;
+        padding-top: 20px;
+    }
+     
+
+    li{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: #10da86;   
+        width: 100%;         
+        font-family: 'Arial Black';
+        list-style: none;
+        text-decoration: none;
+        margin-top: -20px;
+    }
+    
+        footer {
+            background-color:  #10da86;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            width: 100%;
+            height: 60px;
+            line-height: 60px; 
+        }
+    </style>
+   <body>
+    <div class="container">
+        <div class="content-slide">
+            <div class="imgslide fade">
+                <div class="numberslide">1 / 3</div>
+                <img style=" vertical-align: middle; width:100%;height: 500px;" src="Gambar/fuji 1.jpg" alt="">
+            </div>
+
+            <div class="imgslide fade">
+                <div class="numberslide">2 / 3</div>
+                <img style=" vertical-align: middle; width:100%;height: 500px;" src="Gambar/fuji 2.jpg" alt="">
+
+            </div>
+
+            <div class="imgslide fade">
+                <div class="numberslide">3 / 3</div>
+                <img style=" vertical-align: middle; width:100%;height: 500px;" src="Gambar/fuji3.jpg" alt="">
+            </div>
+
+            <div class="imgslide fade">
+                <div class="numberslide">4 / 4</div>
+                <img style=" vertical-align: middle; width:100%;height: 500px;" src="Gambar/gerbang daimyo 1.jpg" alt="">
+            </div>
+
+            <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+            <a class="next" onClick="nextslide(1)">&#10095;</a> 
+        </div>
+
+        <div class="page">
+            <span class="dot" onClick="dotslide(1)"></span>
+            <span class="dot" onClick="dotslide(2)"></span>
+            <span class="dot" onClick="dotslide(3)"></span>
+            <span class="dot" onClick="dotslide(4)"></span>
+        </div>
+
+    </div>
+
+    <div class="box">
+    <ul style="list-style-type: none; margin: 0; padding: 0; display: flex; align-items: center; width: 100%;">
+        <li style="padding: 0 10px;"><a href="Home.html" style="color: white; text-decoration: none;">Home</a></li>
+        <li style="padding: 0 10px;"><a href="Kursus online" style="color: white; text-decoration: none;">Kursus online</a></li>
+        <li style="padding: 0 10px;"><a href="Contact.html" style="color: white; text-decoration: none;">Contact</a></li>
+      </ul>
+    </div>
+</body>  
+
+<body>
+
+
+    <div>
+        <h1 style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 40px; text-align:center; color:rgb(0, 0, 0);">About us</h1>
+        <h2 style= "font: size 30px; ">Selamat datang di Izumi no Nihongo!<br> Kami adalah lembaga pendidikan yang berdedikasi <br>untuk menyediakan pembelajaran bahasa Jepang <br>yang profesional dan menarik bagi semua kalangan.<br> Dengan menggabungkan metode pengajaran<br> yang inovatif dan lingkungan belajar yang ramah, <br>kami bertujuan untuk membantu setiap siswa <br>mencapai potensi maksimal mereka dalam berbahasa Jepang.</h2>
+        
+    </div>
+
+    <div>
+    <h1 style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 40px; text-align:center; ">VISI&MISI</h1>
+    <img src="Gambar/Misi dan visi .png" style="width:100%; high: 45px; ">
+</div>
+    </div>
+
+<div>
+<p style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 40px; text-align:center"><b> Team</b></p>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="Gambar/logo login.png" alt="Logo">
+</div>
+<h2 style="text-align: center;">Koyama Izumi</h2>
+</div>
+
+</body>
+
+<script>
+        var slideIndex = 1;
+            showSlide(slideIndex);
+
+        function nextslide(n){
+            showSlide(slideIndex += n);
+        }
+
+        function dotslide(n){
+            showSlide(slideIndex = n);
+        }
+
+        function showSlide(n) {
+            var i;
+            var slides = document.getElementsByClassName("imgslide");
+            var dot = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                
+                slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                
+                dot[i].className = dot[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            dot[slideIndex - 1].className += " active";
+            
+
+
+        }
+</script>
+<div style="background-color:  #13e88f;" class="container">
+    <h1 style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 40px; text-align:center; color:white;">WE HAVE</h1>
+    <P class="container" style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 30px; color:white; text-align:center">1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 25 </P>
+    <P class="container" style="font: size 15px;font-family: 'Arial Black', sans-serif; font-size: 30px; color:white; text-align:center">Teacher &nbsp; Study Program &nbsp; Student </P>
+    <h1 style="text-align: left;">Izumi No NIHONGO</h1>
+    <h3>Ikuti Kami</h3>
+    <img src="Gambar/icons8-instagram-94.png">
+    <img src="Gambar/icons8-youtube-64.png">
+    
+<footer>
+    <p>&copy; 2024 Izumi no Nihongo. All rights reserved.</p>
+    </footer>
+</div>
+</html>
